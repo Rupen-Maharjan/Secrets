@@ -16,7 +16,7 @@ const Secrets= require("./models/Secrets")
 
 
 // Connect to the MongoDB database
-mongoose.connect("mongodb+srv://rupen:d2tIchih1T90sqEt@cluster0.t4ocein.mongodb.net/")
+mongoose.connect("mongodb+srv://rupen:d2tIchih1T90sqEt@cluster0.t4ocein.mongodb.net/SecretsDB")
 .then(connected => {
     console.log("Connected to the DataBase");
 })
