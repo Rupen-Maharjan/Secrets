@@ -17,7 +17,7 @@ const Secrets= require("./models/Secrets")
 const password = encodeURIComponent("Gokuno!@323");
 const username =encodeURIComponent("rupen");
 // Connect to the MongoDB database
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.t4ocein.mongodb.net/SecretsDB`)
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.ckhcbdz.mongodb.net/SecretsDB`)
 .then(connected => {
     console.log("Connected to the DataBase");
 })
