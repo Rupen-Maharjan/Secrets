@@ -16,7 +16,7 @@ const Secrets= require("./models/Secrets")
 
 const password = encodeURIComponent("RZ8rAO0MM2bB7NRo");
 // Connect to the MongoDB database
-mongoose.connect(`mongodb+srv://rupen:password@cluster0.t4ocein.mongodb.net/SecretsDB`, { useNewUrlParser: true })
+mongoose.connect(`mongodb+srv://rupen:${password}@cluster0.t4ocein.mongodb.net/SecretsDB`, { useNewUrlParser: true })
 .then(connected => {
     console.log("Connected to the DataBase");
 })
