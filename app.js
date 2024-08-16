@@ -14,10 +14,10 @@ const flash=require("connect-flash")
 const {isLogedIn}=require("./middleware")
 const Secrets= require("./models/Secrets")
 
-const password = encodeURIComponent("Gokuno!@323");
+const password = encodeURIComponent("KnOw7pfMtlfQcV9N");
 const username =encodeURIComponent("maharjanrupen7");
 // Connect to the MongoDB database
-mongoose.connect(`mongodb+srv://${username}:${password}@secretcluster.z6xzgni.mongodb.net/?retryWrites=true&w=majority&appName=SecretCluster`)
+mongoose.connect(`mongodb+srv://${username}:${password}@secretcluster.kaxbt.mongodb.net/`)
 .then(connected => {
     console.log("Connected to the DataBase");
 })
